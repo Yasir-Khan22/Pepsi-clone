@@ -8,6 +8,22 @@
 
 .navbar {
     border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.navbar-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid red;
+
 }
 
 .navbar-right {

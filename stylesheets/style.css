@@ -9,3 +9,7 @@
 .navbar {
     border: 2px solid black;
 }
+
+.navbar-right {
+    border: 2px solid turquoise;
+}

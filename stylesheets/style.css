@@ -64,11 +64,14 @@ body {
 }
 
 .product {
-    background-image: url("/images/pepsi-background.png");
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     /* border: 2px solid red; */
+}
+
+.product {
+    background-image: url(/images/pepsi-background.png);
 }
 
 .product-item img {

@@ -6,8 +6,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "SofiaPro-Black", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
 .navbar {
-    border: 2px solid black;
+    font-size: .700rem;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,6 +20,16 @@
     flex-wrap: wrap;
     align-content: center;
     text-transform: uppercase;
+    background: #0065c3;
+    color: white;
+
+}
+
+.navbar-item {
+    /* border: 2px solid yellow; */
+    padding-left: 20px;
+    margin-right: 25px;
+
 
 }
 
@@ -23,7 +38,10 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 400;
 
 }
 

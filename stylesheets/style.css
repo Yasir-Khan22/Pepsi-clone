@@ -71,7 +71,7 @@ body {
 }
 
 .product-item {
-    border: 2px solid rgb(43, 255, 43);
+    /* border: 2px solid rgb(43, 255, 43); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,8 +80,10 @@ body {
 .product-item img {
     max-width: 60%;
     padding: 25px;
-    border: 2px solid rgb(255, 53, 208);
+    /* border: 2px solid rgb(255, 53, 208); */
 }
+
+.product-item-column {}
 
 /* MEDIA QUERIES */
 

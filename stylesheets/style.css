@@ -63,6 +63,21 @@ body {
 
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    color: white;
+    margin: 5px;
+    background: black;
+
+}
+
 .product {
     display: flex;
     justify-content: space-evenly;

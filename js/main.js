@@ -1,3 +1,4 @@
+// javascript files for project
 const burger = document.querySelector(".hamburger")
 const navMenu = document.querySelector(".navbar-left")
 
